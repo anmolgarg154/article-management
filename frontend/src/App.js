@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:3000/api/articles";
+const API = "https://assignment-steel-delta.vercel.app/api/articles";
 
 function App() {
   const [articles, setArticles] = useState([]);
